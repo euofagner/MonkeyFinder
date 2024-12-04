@@ -4,11 +4,11 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MonkeyFinder"
-    Shell.FlyoutBehavior="Disabled"
-    Title="MonkeyFinder">
+    Title="MonkeyFinder"
+    Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
+        Title="Monkey"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
